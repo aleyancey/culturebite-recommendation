@@ -62,20 +62,6 @@ const NeighborhoodInfo = ({ neighborhood, className }: NeighborhoodInfoProps) =>
           </div>
           
           <div>
-            <h3 className="font-medium">Local Health Statistics</h3>
-            <ul className="mt-1 space-y-1">
-              <li className="flex justify-between">
-                <span>Obesity Rate:</span>
-                <span>{neighborhood.healthStats.obesityRate}%</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Diabetes Rate:</span>
-                <span>{neighborhood.healthStats.diabetesRate}%</span>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
             <h3 className="font-medium">Predominant Cultures</h3>
             <div className="flex flex-wrap gap-1 mt-2">
               {neighborhood.predominantCultures.map((culture) => (

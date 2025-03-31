@@ -47,9 +47,5 @@ export interface Neighborhood {
     healthFoodStores: number;
     foodDesert: boolean;
   };
-  healthStats: {
-    obesityRate: number;
-    diabetesRate: number;
-  };
   predominantCultures: string[];
 }

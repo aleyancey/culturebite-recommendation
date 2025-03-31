@@ -33,7 +33,7 @@ export const sampleRecipes: Recipe[] = [
       fiber: 5
     },
     suitableFor: {
-      healthConditions: ["diabetes", "heart disease", "obesity"],
+      healthConditions: ["diabetes", "heart healthy", "weight-loss friendly"],
       dietaryPreferences: ["vegetarian", "vegan", "low-fat"],
       religiousRestrictions: ["halal", "kosher"]
     },
@@ -76,7 +76,7 @@ export const sampleRecipes: Recipe[] = [
       fiber: 12
     },
     suitableFor: {
-      healthConditions: ["heart disease", "high cholesterol"],
+      healthConditions: ["heart healthy", "high cholesterol"],
       dietaryPreferences: ["vegetarian", "high-fiber"],
       religiousRestrictions: ["kosher"]
     },
@@ -116,7 +116,7 @@ export const sampleRecipes: Recipe[] = [
       fiber: 8
     },
     suitableFor: {
-      healthConditions: ["high blood pressure", "heart disease", "diabetes"],
+      healthConditions: ["high blood pressure", "heart healthy", "diabetes"],
       dietaryPreferences: ["low-carb", "high-protein"],
       religiousRestrictions: []
     },
@@ -161,7 +161,7 @@ export const sampleRecipes: Recipe[] = [
       fiber: 4
     },
     suitableFor: {
-      healthConditions: ["high blood pressure", "heart disease"],
+      healthConditions: ["high blood pressure", "heart healthy"],
       dietaryPreferences: ["low-sodium", "gluten-free (with tamari instead of soy sauce)"],
       religiousRestrictions: ["halal"]
     },
@@ -208,7 +208,7 @@ export const sampleRecipes: Recipe[] = [
       fiber: 13
     },
     suitableFor: {
-      healthConditions: ["diabetes", "obesity", "digestive issues"],
+      healthConditions: ["diabetes", "weight-loss friendly", "digestive issues"],
       dietaryPreferences: ["vegetarian", "gluten-free", "low-carb"],
       religiousRestrictions: ["halal", "kosher"]
     },
@@ -230,10 +230,6 @@ export const sampleNeighborhoods: Neighborhood[] = [
       healthFoodStores: 3,
       foodDesert: false
     },
-    healthStats: {
-      obesityRate: 32,
-      diabetesRate: 14
-    },
     predominantCultures: ["African American", "Caribbean", "Latinx"]
   },
   {
@@ -245,10 +241,6 @@ export const sampleNeighborhoods: Neighborhood[] = [
       farmersMarkets: true,
       healthFoodStores: 8,
       foodDesert: false
-    },
-    healthStats: {
-      obesityRate: 18,
-      diabetesRate: 7
     },
     predominantCultures: ["Jewish", "European", "South American"]
   },
@@ -262,10 +254,6 @@ export const sampleNeighborhoods: Neighborhood[] = [
       healthFoodStores: 2,
       foodDesert: true
     },
-    healthStats: {
-      obesityRate: 33,
-      diabetesRate: 16
-    },
     predominantCultures: ["Latinx", "African American", "Caribbean"]
   },
   {
@@ -278,10 +266,6 @@ export const sampleNeighborhoods: Neighborhood[] = [
       healthFoodStores: 4,
       foodDesert: false
     },
-    healthStats: {
-      obesityRate: 24,
-      diabetesRate: 10
-    },
     predominantCultures: ["Asian", "Middle Eastern", "European"]
   },
   {
@@ -293,10 +277,6 @@ export const sampleNeighborhoods: Neighborhood[] = [
       farmersMarkets: false,
       healthFoodStores: 1,
       foodDesert: true
-    },
-    healthStats: {
-      obesityRate: 35,
-      diabetesRate: 18
     },
     predominantCultures: ["Italian", "Albanian", "Mexican", "Puerto Rican"]
   }
